@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
 
-    <!-- ICONS -->
-    <link rel="stylesheet" href="assets/fonts/style.css" />
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
 
     <!-- STYLES -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -40,6 +46,7 @@
       </nav>
     </header>
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -59,6 +66,8 @@
         </div>
       </section>
       <div class="divider-1"></div>
+
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -93,6 +102,8 @@
         </div>
       </section>
       <div class="divider-2"></div>
+
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -138,34 +149,107 @@
         </div>
       </section>
       <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
       <section class="section" id="testimonials">
-        <div class="container grid">
-          <h2 class="title">Depoimentos</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            fringilla luctus odio, quis tincidunt lectus ornare id. Proin lectus
-            ipsum, luctus et mollis vitae, pulvinar a libero. Vestibulum a erat
-            tortor. Maecenas consectetur lacinia est, ut imperdiet augue pretium
-            at. Vivamus ex metus, varius a turpis non, pellentesque faucibus
-            velit.
-          </p>
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempora ratione facere ex excepturi rem
+                    necessitatibus, dicta quas nemo mollitia consectetur animi
+                    voluptate labore minima odio, natus obcaecati saepe facilis
+                    soluta!
+                  </p>
+                  <cite
+                    ><img
+                      src="assets/fotos/24.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />Wanessa Souza</cite
+                  >
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempora ratione facere ex excepturi rem
+                    necessitatibus, dicta quas nemo mollitia consectetur animi
+                    voluptate labore minima odio, natus obcaecati saepe facilis
+                    soluta!
+                  </p>
+                  <cite
+                    ><img
+                      src="assets/fotos/33.jpg"
+                      alt="Foto de Franciele Venega"
+                    />Franciele Venega</cite
+                  >
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempora ratione facere ex excepturi rem
+                    necessitatibus, dicta quas nemo mollitia consectetur animi
+                    voluptate labore minima odio, natus obcaecati saepe facilis
+                    soluta!
+                  </p>
+                  <cite
+                    ><img
+                      src="assets/fotos/89.jpg"
+                      alt="Foto de Valeska Fabris"
+                    />Valeska Fabris</cite
+                  >
+                </blockquote>
+              </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
       </section>
       <div class="divider-2"></div>
+
+      <!-- CONTACT -->
       <section class="section" id="contact">
         <div class="container grid">
-          <h2 class="title">Contato</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            fringilla luctus odio, quis tincidunt lectus ornare id. Proin lectus
-            ipsum, luctus et mollis vitae, pulvinar a libero. Vestibulum a erat
-            tortor. Maecenas consectetur lacinia est, ut imperdiet augue pretium
-            at. Vivamus ex metus, varius a turpis non, pellentesque faucibus
-            velit.
-          </p>
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=5545991450089&text=Oi, gostaria de agendar um horário"
+              class="button"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 11 99845-6754</li>
+              <li><i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i> contato@beautysalon.com</li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- SCROLLREVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- JAVASCRIPT -->
     <script src="main.js"></script>
   </body>
 </html>
