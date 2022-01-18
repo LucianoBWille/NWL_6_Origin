@@ -310,6 +310,11 @@ nav.show div.icon-close {
   margin-bottom: 2rem;
 }
 
+#home .button i {
+  font-size: 1.5rem;
+  margin-right: 0.625rem;
+}
+
 /* ========== ABOUT ========== */
 #about {
   background: white;
