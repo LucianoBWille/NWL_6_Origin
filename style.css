@@ -631,6 +631,11 @@ footer.section {
     padding-right: 3rem;
   }
 
+  #testimonials .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #contact .container {
     margin: 0 3rem;
     /* grid-auto-flow: column; */
@@ -670,11 +675,6 @@ footer.section {
   #services .cards.grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
-
-  #services .cards .card {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
 }
 
 /* extra large devices: 1200 > */
@@ -689,56 +689,10 @@ footer.section {
     padding: 10rem 0;
   }
 
-  .section header,
-  #testimonials header {
-    max-width: 32rem;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .button {
-    height: 3.125rem;
-  }
-
-  nav .menu {
-    opacity: 1;
-    visibility: visible;
-    top: 0;
-  }
-
-  nav .menu ul {
-    display: flex;
-    gap: 2rem;
-  }
-
-  nav .menu ul li a.title {
-    font: 400 1rem var(--body-font);
-  }
-
-  nav .icon-menu {
-    display: none;
-  }
-
-  main {
-    margin-top: calc(var(--header-height));
-  }
-
   #home .container {
     margin: 0 auto;
     grid-auto-flow: column;
     justify-content: space-between;
-  }
-
-  #home .image {
-    order: 1;
-    margin-right: 2.5rem;
-  }
-
-  #home .text {
-    order: 0;
-    max-width: 24rem;
-    text-align: left;
   }
 
   #about .container {
@@ -747,45 +701,13 @@ footer.section {
     justify-content: space-between;
   }
 
-  #about .image {
-    height: fit-content;
-  }
-
   #services .cards.grid {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  #services .cards .card {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  #testimonials .container {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   #contact .container {
     margin: 0 auto;
     grid-auto-flow: column;
     align-items: center;
-  }
-
-  #contact .text {
-    max-width: 25rem;
-  }
-
-  footer.section {
-    padding: 3.75rem 0;
-  }
-
-  footer.section .container {
-    grid-auto-flow: column;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  footer .logo {
-    font-size: 2.25rem;
   }
 }
